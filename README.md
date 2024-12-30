@@ -1,4 +1,28 @@
-# Apple iPhone 3d model
+# Apple iPhone View
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Добро пожаловать на сайт, посвященный просмотру моделей iPhone!
+
+## Описание
+
+Этот проект представляет собой веб-приложение, которое позволяет пользователям просматривать различные модели iPhone, их характеристики и фотографии. Приложение создано с использованием современных технологий и имеет интуитивный интерфейс.
+
+## Ссылка на приложение
+
+Вы можете посетить наше приложение по следующей ссылке:
+
+https://apple-iphone-view.vercel.app/
+
+## Технологии
+
+В проекте использованы следующие технологии:
+
+- HTML/CSS
+- JavaScript
+- Tailwind
+- GSAP
+- THREE.js
+- Sentry
+- React.js
+- Vercel (для деплоя)
+
+## Как запустить локально
