@@ -1,22 +1,23 @@
-import Features from "./components/features"
-import Footer from "./components/footer"
-import Hero from "./components/hero"
-import Highlights from "./components/highlights"
-import HowItWorks from "./components/how-it-works"
-import Model from "./components/model"
-import Navbar from "./components/navbar"
 import * as Sentry from "@sentry/react"
+
+import { BrowserRouter, Route, Routes } from "react-router-dom"
+
+import IphoneSection from "./components/iPhone/iPhone-section"
+import Navbar from "./components/navbar"
+import StoreSection from "./components/store-section"
+import MacSection from "./components/Mac/mac-section"
+import SupportSection from "./components/support-section"
 function App() {
 	return (
-		<main className="bg-black">
+		<BrowserRouter>
 			<Navbar />
-			<Hero />
-			<Highlights />
-			<Model />
-			<Features />
-			<HowItWorks />
-			<Footer />
-		</main>
+			<Routes>
+				<Route path="/" element={<StoreSection />} />
+				<Route path="/Mac" element={<MacSection />} />
+				<Route path="/iPhone" element={<IphoneSection />} />
+				<Route path="/Support" element={<SupportSection />} />
+			</Routes>
+		</BrowserRouter>
 	)
 }
 

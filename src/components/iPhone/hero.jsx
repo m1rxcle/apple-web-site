@@ -1,4 +1,4 @@
-import { heroVideo, smallHeroVideo } from "../utils"
+import { heroVideo, smallHeroVideo } from "../../utils"
 
 import gsap from "gsap"
 import { useGSAP } from "@gsap/react"

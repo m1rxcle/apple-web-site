@@ -1,13 +1,15 @@
+import { useEffect, useRef, useState } from "react"
+
+gsap.registerPlugin(ScrollTrigger)
+
 import gsap from "gsap"
 import { useGSAP } from "@gsap/react"
 import { ScrollTrigger } from "gsap/all"
-gsap.registerPlugin(ScrollTrigger)
-import { useEffect, useRef, useState } from "react"
 
-import { highlightsSlides } from "../constants"
-import { pauseImg, playImg, replayImg } from "../utils"
+import { highlightsSlidesForMac } from "../../constants"
+import { pauseImg, playImg, replayImg } from "../../utils"
 
-const VideoCarousel = () => {
+const VideoCarouselForMac = () => {
 	const videoRef = useRef([])
 	const videoSpanRef = useRef([])
 	const videoDivRef = useRef([])
@@ -99,7 +101,7 @@ const VideoCarousel = () => {
 
 			// update the progress bar
 			const animUpdate = () => {
-				anim.progress(videoRef.current[videoId].currentTime / highlightsSlides[videoId].videoDuration)
+				anim.progress(videoRef.current[videoId].currentTime / highlightsSlidesForMac[videoId].videoDuration)
 			}
 
 			if (isPlaying) {
@@ -130,7 +132,7 @@ const VideoCarousel = () => {
 				break
 
 			case "video-last":
-				setVideo((pre) => ({ ...pre, isLastVideo: true }))
+				setVideo((pre) => ({ ...pre, isLastVideo: true, isPlaying: false }))
 				break
 
 			case "video-reset":
@@ -155,14 +157,15 @@ const VideoCarousel = () => {
 	return (
 		<>
 			<div className="flex items-center">
-				{highlightsSlides.map((list, i) => (
+				{highlightsSlidesForMac.map((list, i) => (
 					<div key={list.id} id="slider" className="sm:pr-20 pr-10">
 						<div className="video-carousel_container">
 							<div className="w-full h-full flex-center rounded-3xl overflow-hidden bg-black">
 								<video
 									id="video"
-									playsInline={true}
-									className={`${list.id === 2 && "translate-x-44"} pointer-events-none`}
+									playsInline
+									autoPlay
+									className={`${list.id === 2 && "translate-x-44"} pointer-events-none w-full`}
 									preload="auto"
 									muted
 									ref={(el) => (videoRef.current[i] = el)}
@@ -207,4 +210,4 @@ const VideoCarousel = () => {
 	)
 }
 
-export default VideoCarousel
+export default VideoCarouselForMac

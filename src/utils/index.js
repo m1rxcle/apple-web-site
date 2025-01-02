@@ -55,3 +55,41 @@ export const explore1Img = explore1
 export const explore2Img = explore2
 export const chipImg = chip
 export const frameImg = frame
+
+import performanceMac from "./../../assets/videos/performance-mac.mp4"
+
+export const performanceMacVideo = performanceMac
+
+import macFeatures from "./../../assets/images/mac-features.jpg"
+import photoForFeatures1 from "./../../assets/images/photo-for-features1.png"
+import photoForFeatures2 from "./../../assets/images/photo-for-features2.png"
+import photoForFeatures3 from "./../../assets/images/photo-for-features3.png"
+import photoForFeatures4 from "./../../assets/images/photo-for-features4.png"
+import photoForFeatures5 from "./../../assets/images/photo-for-features5.png"
+import photoForFeatures6 from "./../../assets/images/photo-for-features6.png"
+
+export const macFeaturesImg = macFeatures
+export const photoForFeatures1Img = photoForFeatures1
+export const photoForFeatures2Img = photoForFeatures2
+export const photoForFeatures3Img = photoForFeatures3
+export const photoForFeatures4Img = photoForFeatures4
+export const photoForFeatures5Img = photoForFeatures5
+export const photoForFeatures6Img = photoForFeatures6
+
+import hightLightForMacVideoFirst from "./../../assets/videos/hightlight-for-mac-video1.mp4"
+import hightLightForMacVideoSecond from "./../../assets/videos/hightlight-for-mac-video2.mp4"
+import hightLightForMacVideoFour from "./../../assets/videos/highlights-for-mac-video4.mp4"
+import hightLightForMacVideoThird from "./../../assets/videos/hightlight-for-mac-video3.mp4"
+
+export const hightLightForMacVideoFirstVideo = hightLightForMacVideoFirst
+export const hightLightForMacVideoSecondVideo = hightLightForMacVideoSecond
+export const hightLightForMacVideoThirdVideo = hightLightForMacVideoThird
+export const hightLightForMacVideoFourthVideo = hightLightForMacVideoFour
+
+import macBookTitleImg from "./../../assets/images/mac-book-title-img.png"
+import macBookLarge from "./../../assets/videos/macBookLarge.mp4"
+import macBookSmall from "./../../assets/videos/macBookSmall.mp4"
+
+export const macBookTitleImgSrc = macBookTitleImg
+export const macBookLargeSrc = macBookLarge
+export const macBookSmallSrc = macBookSmall
