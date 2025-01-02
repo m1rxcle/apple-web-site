@@ -88,7 +88,7 @@ export const hightLightForMacVideoFourthVideo = hightLightForMacVideoFour
 
 import macBookTitleImg from "./../../assets/images/mac-book-title-img.png"
 import macBookLarge from "./../../assets/videos/macBookLarge.mp4"
-import macBookSmall from "./../../assets/videos/macBookSmall.mp4"
+import macBookSmall from "./../../assets/videos/macBooksmall.mp4"
 
 export const macBookTitleImgSrc = macBookTitleImg
 export const macBookLargeSrc = macBookLarge
