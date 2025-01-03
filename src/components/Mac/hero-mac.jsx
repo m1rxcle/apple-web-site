@@ -36,7 +36,7 @@ function HeroMac() {
 					<p id="hero" className="hero-title">
 						MacBook Pro
 					</p>
-					<div className="w-full flex-center">
+					<div className="md:w-full w-2/3  flex-center">
 						<video autoPlay muted playsInline={true} key={videoSrc}>
 							<source className="w-[100px]" src={videoSrc} type="video/mp4" />
 						</video>
@@ -47,7 +47,7 @@ function HeroMac() {
 						src={macBookTitleImgSrc}
 					/>
 
-					<div id="cta" className="flex flex-col items-center opacity-0 translate-y-20">
+					<div id="cta" className="flex flex-col items-center opacity-0 translate-y-20 md:mt-0 mt-32">
 						<a href="#" className="btn">
 							Buy
 						</a>

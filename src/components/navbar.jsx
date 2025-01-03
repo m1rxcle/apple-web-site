@@ -18,7 +18,6 @@ const Navbar = () => {
 					height={18}
 				/>
 
-				{/* Меню навигации с анимацией */}
 				<div
 					className={`flex flex-1 md:gap-10 gap-3 justify-center transition-all duration-500 ${
 						open
@@ -26,18 +25,18 @@ const Navbar = () => {
 							: "max-sm:max-h-0 max-sm:opacity-0 max-sm:transform max-sm:-translate-x-12 max-sm:pointer-events-none max-sm:scale-90"
 					}`}
 				>
-					<NavLink className="text-sm cursor-pointer text-gray hover:text-white hidden md:block" to="/">
+					{/* <NavLink className="text-sm cursor-pointer text-gray hover:text-white hidden md:block" to="/">
 						Store
-					</NavLink>
-					<NavLink className="text-sm cursor-pointer text-gray hover:text-white" to="/Mac">
+					</NavLink> */}
+					<NavLink className="text-sm cursor-pointer text-gray hover:text-white" to="/">
 						Mac
 					</NavLink>
-					<NavLink className="text-sm cursor-pointer text-gray hover:text-white" to="/iPhone">
+					<NavLink className="text-sm cursor-pointer text-gray hover:text-white" to="/iphone">
 						iPhone
 					</NavLink>
-					<NavLink className="text-sm cursor-pointer text-gray hover:text-white hidden md:block" to="/Support">
+					{/* <NavLink className="text-sm cursor-pointer text-gray hover:text-white hidden md:block" to="/Support">
 						Support
-					</NavLink>
+					</NavLink> */}
 				</div>
 				<div className="flex items-baseline gap-7 max-sm:justify-end max-sm:flex-1">
 					<img src={searchImg} alt="Search" width={18} height={18} />
