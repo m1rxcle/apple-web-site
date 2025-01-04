@@ -14,20 +14,20 @@ export function MacBook(props) {
 	return (
 		<group {...props} dispose={null}>
 			<group rotation={[-Math.PI / 2, 0, 0]}>
-				<mesh castShadow receiveShadow geometry={nodes.Object_2.geometry} material={materials["Aluminum_-_Anodized_Glossy_Grey"]} scale={0.02} />
+				<mesh castShadow receiveShadow geometry={nodes.Object_2.geometry} material={materials["Aluminum_-_Anodized_Glossy_Grey"]} scale={0.03} />
 				<mesh
 					castShadow
 					receiveShadow
 					geometry={nodes.Object_3.geometry}
 					material={materials["Aluminum_-_Anodized_Glossy_Grey_keyboard.jpg"]}
-					scale={0.02}
+					scale={0.03}
 				/>
-				<mesh castShadow receiveShadow geometry={nodes.Object_4.geometry} material={materials["Glass_-_Heavy_Color"]} scale={0.02} />
-				<mesh castShadow receiveShadow geometry={nodes.Object_5.geometry} material={materials["Plastic_-_Translucent_Matte_Gray"]} scale={0.02} />
-				<mesh castShadow receiveShadow geometry={nodes.Object_6.geometry} material={materials.Acrylic_Clear} scale={0.02} />
-				<mesh castShadow receiveShadow geometry={nodes.Object_7.geometry} material={materials["Bronze_-_Polished"]} scale={0.02} />
-				<mesh castShadow receiveShadow geometry={nodes.Object_8.geometry} material={materials["Rubber_-_Soft"]} scale={0.02} />
-				<mesh castShadow receiveShadow geometry={nodes.Object_9.geometry} material={materials["Steel_-_Satin"]} scale={0.02} />
+				<mesh castShadow receiveShadow geometry={nodes.Object_4.geometry} material={materials["Glass_-_Heavy_Color"]} scale={0.03} />
+				<mesh castShadow receiveShadow geometry={nodes.Object_5.geometry} material={materials["Plastic_-_Translucent_Matte_Gray"]} scale={0.03} />
+				<mesh castShadow receiveShadow geometry={nodes.Object_6.geometry} material={materials.Acrylic_Clear} scale={0.03} />
+				<mesh castShadow receiveShadow geometry={nodes.Object_7.geometry} material={materials["Bronze_-_Polished"]} scale={0.03} />
+				<mesh castShadow receiveShadow geometry={nodes.Object_8.geometry} material={materials["Rubber_-_Soft"]} scale={0.03} />
+				<mesh castShadow receiveShadow geometry={nodes.Object_9.geometry} material={materials["Steel_-_Satin"]} scale={0.03} />
 			</group>
 		</group>
 	)

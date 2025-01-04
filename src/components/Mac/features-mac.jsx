@@ -78,7 +78,7 @@ const FeaturesMac = () => {
 						/>
 					</div>
 					<div className="mt-24 text-center z-10 relative">
-						<p id="features_desc" className="opacity-0 translate-y-24 md:text-2xl text-base md:w-[600px] w-full text-gray-100">
+						<p id="features_desc" className="opacity-0 translate-y-24 md:text-2xl text-sm md:w-[600px] w-full text-gray-100">
 							Run graphics-intensive workflows with a responsiveness that keeps up with your imagination. The M4 family of chips features a GPU with a
 							second-generation hardware-accelerated ray tracing engine that renders images faster,{" "}
 							<span className="text-white">so gaming feels more immersive and realistic than ever.</span> And Dynamic Caching optimizes fast on-chip

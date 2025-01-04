@@ -57,7 +57,6 @@ export const chipImg = chip
 export const frameImg = frame
 
 import performanceMac from "./../../assets/videos/performance-mac.mp4"
-
 export const performanceMacVideo = performanceMac
 
 import macFeatures from "./../../assets/images/mac-features.jpg"
