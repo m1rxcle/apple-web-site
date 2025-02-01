@@ -14,12 +14,20 @@ import framemv from "/assets/videos/frame.mp4"
 import apple from "/assets/images/apple.svg"
 import search from "/assets/images/search.svg"
 import bag from "/assets/images/bag.svg"
+import burger from "/assets/images/burger-menu.svg"
+import x from "/assets/images/x.jpg"
 import watch from "/assets/images/watch.svg"
 import right from "/assets/images/right.svg"
 import replay from "/assets/images/replay.svg"
 import play from "/assets/images/play.svg"
 import pause from "/assets/images/pause.svg"
 
+import appleWatch from "/assets/images/appleWatchItem.png"
+import airpodsItems from "/assets/images/airpodsItem.png"
+import appleVisionItem from "/assets/images/appleVisionItem.png"
+import ipadItem from "/assets/images/ipadItem.png"
+import iphoneItem from "/assets/images/iphoneitem.png"
+import macItem from "/assets/images/macitem.png"
 import yellow from "/assets/images/yellow.jpg"
 import blue from "/assets/images/blue.jpg"
 import white from "/assets/images/white.jpg"
@@ -41,12 +49,20 @@ export const frameVideo = framemv
 export const appleImg = apple
 export const searchImg = search
 export const bagImg = bag
+export const burgerImg = burger
+export const xImg = x
 export const watchImg = watch
 export const rightImg = right
 export const replayImg = replay
 export const playImg = play
 export const pauseImg = pause
 
+export const appleWatchItemImg = appleWatch
+export const airpodsItemsImg = airpodsItems
+export const appleVisionItemImg = appleVisionItem
+export const ipadItemImg = ipadItem
+export const iphoneItemImg = iphoneItem
+export const macItemImg = macItem
 export const yellowImg = yellow
 export const blueImg = blue
 export const whiteImg = white

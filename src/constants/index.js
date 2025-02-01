@@ -1,4 +1,7 @@
 import {
+	airpodsItemsImg,
+	appleVisionItemImg,
+	appleWatchItemImg,
 	blackImg,
 	blueImg,
 	highlightFirstVideo,
@@ -9,11 +12,74 @@ import {
 	hightLightForMacVideoFourthVideo,
 	hightLightForMacVideoSecondVideo,
 	hightLightForMacVideoThirdVideo,
+	ipadItemImg,
+	iphoneItemImg,
+	macItemImg,
 	whiteImg,
 	yellowImg,
 } from "../utils"
 
-export const navLists = ["Store", "Mac", "iPhone", "Support"]
+export const navLists = [
+	{
+		id: 1,
+		title: "Store",
+		href: "/",
+	},
+	{
+		id: 2,
+		title: "Mac",
+		href: "/mac",
+	},
+	{
+		id: 3,
+		title: "iPhone",
+		href: "/iphone",
+	},
+	{
+		id: 4,
+		title: "Support",
+		href: "/support",
+	},
+]
+
+export const productsItems = [
+	{
+		id: 1,
+		title: "Mac",
+		img: macItemImg,
+		href: "/mac",
+	},
+	{
+		id: 2,
+		title: "iPhone",
+		img: iphoneItemImg,
+		href: "/iphone",
+	},
+	{
+		id: 3,
+		title: "iPad",
+		img: ipadItemImg,
+		href: "/",
+	},
+	{
+		id: 4,
+		title: "Air Pods",
+		img: airpodsItemsImg,
+		href: "/",
+	},
+	{
+		id: 5,
+		title: "Apple Vision Pro",
+		img: appleVisionItemImg,
+		href: "/",
+	},
+	{
+		id: 6,
+		title: "Apple Watch",
+		img: appleWatchItemImg,
+		href: "/",
+	},
+]
 
 export const highlightsSlides = [
 	{
@@ -121,8 +187,8 @@ export const sizes = [
 ]
 
 export const sizesForMac = [
-	{ label: '18.3"', value: "small" },
-	{ label: '22.2"', value: "large" },
+	{ label: '14"', value: "small" },
+	{ label: '16"', value: "large" },
 ]
 
 export const footerLinks = ["Privacy Policy", "Terms of Use", "Sales Policy", "Legal", "Site Map"]

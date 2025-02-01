@@ -17,9 +17,11 @@
 		"@react-three/fiber": "^8.17.10",
 		"@sentry/react": "^8.47.0",
 		"@sentry/vite-plugin": "^2.22.7",
+		"antd": "^5.23.3",
 		"gsap": "^3.12.5",
 		"react": "^18.3.1",
 		"react-dom": "^18.3.1",
+		"react-infinite-scroll-component": "^6.1.0",
 		"react-router-dom": "^7.1.1",
 		"three": "^0.171.0"
 	},
