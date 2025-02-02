@@ -108,3 +108,25 @@ import macBookSmall from "./../../assets/videos/macBooksmall.mp4"
 export const macBookTitleImgSrc = macBookTitleImg
 export const macBookLargeSrc = macBookLarge
 export const macBookSmallSrc = macBookSmall
+
+import iPhoneCurImg from "./../../assets/images/iPhone-card.jpeg"
+import iPhoneCurImg2 from "./../../assets/images/iPhone-card-2.jpeg"
+import iPadCurImg from "./../../assets/images/ipad-card.jpeg"
+import iPadCurImg2 from "./../../assets/images/ipad-card-2.jpeg"
+import iPadProCurImg from "./../../assets/images/ipadPro-card.jpeg"
+import macCurImg from "./../../assets/images/mac-card.jpeg"
+import macMiniCurImg from "./../../assets/images/macMini-card.jpeg"
+import watchCurImg from "./../../assets/images/watch-card.jpeg"
+import watchCurImg2 from "./../../assets/images/watch-card-2.jpeg"
+import watchCurImg3 from "./../../assets/images/watch-card-3.jpeg"
+
+export const iPhoneCurImgSrc = iPhoneCurImg
+export const iPhoneCurImg2Src = iPhoneCurImg2
+export const iPadCurImgSrc = iPadCurImg
+export const iPadCurImg2Src = iPadCurImg2
+export const iPadProCurImgSrc = iPadProCurImg
+export const macCurImgSrc = macCurImg
+export const macMiniCurImgSrc = macMiniCurImg
+export const watchCurImgSrc = watchCurImg
+export const watchCurImg2Src = watchCurImg2
+export const watchCurImg3Src = watchCurImg3

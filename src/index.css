@@ -125,3 +125,35 @@ canvas {
 		mask-image: linear-gradient(to right, transparent, white 20%, white 80%, transparent);
 	}
 }
+.slick-slide > div {
+	margin: 0 10px;
+}
+.slick-list {
+	margin: 0 -10px;
+}
+
+.slick-arrow::before {
+	font-size: 40px !important;
+}
+
+.slick-prev {
+	left: -35px !important;
+}
+
+.slick-next {
+	right: -5px !important;
+}
+
+.slick-arrow:hover::before {
+	color: #4b4949 !important;
+}
+
+@media screen and (max-width: 600px) {
+	.slick-prev {
+		left: -45px !important;
+	}
+
+	.slick-next {
+		right: -24px !important;
+	}
+}
