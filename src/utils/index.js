@@ -23,11 +23,11 @@ import play from "./../../assets/images/play.svg"
 import pause from "./../../assets/images/pause.svg"
 
 import appleWatch from "./../../assets/images/appleWatchItem.png"
-import airpodsItems from "./../../assets/images/airpodsItem.png"
+import airpodsItems from "./../../assets/images/airPodsItem.png"
 import appleVisionItem from "./../../assets/images/appleVisionItem.png"
 import ipadItem from "./../../assets/images/ipadItem.png"
-import iphoneItem from "./../../assets/images/iphoneitem.png"
-import macItem from "./../.../../../assets/images/macitem.png"
+import iphoneItem from "./../../assets/images/iphoneItem.png"
+import macItem from "./../.../../../assets/images/macItem.png"
 import yellow from "./../../assets/images/yellow.jpg"
 import blue from "./../../assets/images/blue.jpg"
 import white from "./../../assets/images/white.jpg"
@@ -103,7 +103,7 @@ export const hightLightForMacVideoFourthVideo = hightLightForMacVideoFour
 
 import macBookTitleImg from "./../.../../../assets/images/mac-book-title-img.png"
 import macBookLarge from "./../.../../../assets/videos/macBookLarge.mp4"
-import macBookSmall from "./../.../../../assets/videos/macBooksmall.mp4"
+import macBookSmall from "./../.../../../assets/videos/macBookSmall.mp4"
 
 export const macBookTitleImgSrc = macBookTitleImg
 export const macBookLargeSrc = macBookLarge
