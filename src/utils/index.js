@@ -23,7 +23,7 @@ import play from "/assets/images/play.svg"
 import pause from "/assets/images/pause.svg"
 
 import appleWatch from "/assets/images/appleWatchItem.png"
-import airPodsItems from "/assets/images/airPodsItem.png"
+import airPodsItems from "/assets/images/airPods.png"
 import appleVisionItem from "/assets/images/appleVisionItem.png"
 import ipadItem from "/assets/images/ipadItem.png"
 import iphoneItem from "/assets/images/iphoneItem.png"
