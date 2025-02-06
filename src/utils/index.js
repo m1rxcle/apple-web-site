@@ -23,7 +23,7 @@ import play from "./../../assets/images/play.svg"
 import pause from "./../../assets/images/pause.svg"
 
 import appleWatch from "./../../assets/images/appleWatchItem.png"
-import airpodsItems from "./../../assets/images/airPodsItem.png"
+import airPodsItems from "./../../assets/images/airPodsItem.png"
 import appleVisionItem from "./../../assets/images/appleVisionItem.png"
 import ipadItem from "./../../assets/images/ipadItem.png"
 import iphoneItem from "./../../assets/images/iphoneItem.png"
@@ -58,7 +58,7 @@ export const playImg = play
 export const pauseImg = pause
 
 export const appleWatchItemImg = appleWatch
-export const airpodsItemsImg = airpodsItems
+export const airPodsItemsImg = airPodsItems
 export const appleVisionItemImg = appleVisionItem
 export const ipadItemImg = ipadItem
 export const iphoneItemImg = iphoneItem

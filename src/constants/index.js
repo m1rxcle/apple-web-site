@@ -1,5 +1,5 @@
 import {
-	airpodsItemsImg,
+	airPodsItemsImg,
 	appleVisionItemImg,
 	appleWatchItemImg,
 	blackImg,
@@ -72,7 +72,7 @@ export const productsItems = [
 	{
 		id: 4,
 		title: "Air Pods",
-		img: airpodsItemsImg,
+		img: airPodsItemsImg,
 		href: "/",
 	},
 	{
