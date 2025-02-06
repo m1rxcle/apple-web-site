@@ -1,4 +1,5 @@
 import Slider from "react-slick"
+import { cardPngSrc, notePngSrc, screenPngSrc, smilePngSrc, truckPngSrc, watchPngSrc } from "../../utils"
 
 const CustomSliderForEnt = ({ settings }) => {
 	return (
@@ -6,7 +7,7 @@ const CustomSliderForEnt = ({ settings }) => {
 			<div className="hover:scale-[1.01] h-[250px] p-[30px] w-[313px] transition-all duration-300 ease-linear bg-zinc rounded-3xl">
 				<div id="slider" className=" relative transition-all duration-300 ease-linear  ">
 					<div className="mb-2">
-						<img className="" src="/assets/png/truck.png" />
+						<img className="" src={truckPngSrc} />
 					</div>
 					<div className="w-3/4">
 						<h1 className="md:text-2xl sm:text-xl text-white font-semibold mb-2">
@@ -19,7 +20,7 @@ const CustomSliderForEnt = ({ settings }) => {
 			<div className="hover:scale-[1.01] h-[250px] p-[30px] w-[313px] transition-all duration-300 ease-linear bg-zinc rounded-3xl">
 				<div id="slider" className=" relative transition-all duration-300 ease-linear  ">
 					<div className="mb-2">
-						<img className="" src="/assets/png/watch.png" />
+						<img className="" src={watchPngSrc} />
 					</div>
 					<div className="w-3/4">
 						<h1 className="md:text-2xl sm:text-xl text-white font-semibold mb-2">
@@ -32,7 +33,7 @@ const CustomSliderForEnt = ({ settings }) => {
 			<div className="hover:scale-[1.01] h-[250px] p-[30px] w-[313px] transition-all duration-300 ease-linear bg-zinc rounded-3xl">
 				<div id="slider" className=" relative transition-all duration-300 ease-linear  ">
 					<div className="mb-2">
-						<img className="" src="/assets/png/card.png" />
+						<img className="" src={cardPngSrc} />
 					</div>
 					<div className="w-3/4">
 						<h1 className="md:text-2xl sm:text-xl text-white font-semibold mb-2">
@@ -44,7 +45,7 @@ const CustomSliderForEnt = ({ settings }) => {
 			<div className="hover:scale-[1.01] h-[250px] p-[30px] w-[313px] transition-all duration-300 ease-linear bg-zinc rounded-3xl">
 				<div id="slider" className=" relative transition-all duration-300 ease-linear  ">
 					<div className="mb-2">
-						<img className="" src="/assets/png/smile.png" />
+						<img className="" src={smilePngSrc} />
 					</div>
 					<div className="w-3/4">
 						<h1 className="md:text-2xl sm:text-xl text-white font-semibold mb-2">
@@ -56,7 +57,7 @@ const CustomSliderForEnt = ({ settings }) => {
 			<div className="hover:scale-[1.01] h-[250px] p-[30px] w-[313px] transition-all duration-300 ease-linear bg-zinc rounded-3xl">
 				<div id="slider" className=" relative transition-all duration-300 ease-linear  ">
 					<div className="mb-2">
-						<img className="" src="/assets/png/note.png" />
+						<img className="" src={notePngSrc} />
 					</div>
 					<div className="w-3/4">
 						<h1 className="md:text-2xl sm:text-xl text-white font-semibold mb-2">
@@ -70,7 +71,7 @@ const CustomSliderForEnt = ({ settings }) => {
 			<div className="hover:scale-[1.01] h-[250px] p-[30px] w-[313px] transition-all duration-300 ease-linear bg-zinc rounded-3xl">
 				<div id="slider" className=" relative transition-all duration-300 ease-linear  ">
 					<div className="mb-2">
-						<img className="" src="/assets/png/screen-share.png" />
+						<img className="" src={screenPngSrc} />
 					</div>
 					<div className="w-3/4">
 						<h1 className="md:text-2xl sm:text-xl text-white font-semibold mb-2">

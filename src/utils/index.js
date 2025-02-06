@@ -136,3 +136,17 @@ import entImgSmall from "/assets/images/ent-img-sm.jpg"
 
 export const entImgBigSrc = entImgBig
 export const entImgSmallSrc = entImgSmall
+
+import cardPng from "/assets/png/card.png"
+import notePng from "/assets/png/note.png"
+import screenPng from "/assets/png/screen.png"
+import smilePng from "/assets/png/smile.png"
+import truckPng from "/assets/png/truck.png"
+import watchPng from "/assets/png/watch.png"
+
+export const cardPngSrc = cardPng
+export const notePngSrc = notePng
+export const screenPngSrc = screenPng
+export const smilePngSrc = smilePng
+export const truckPngSrc = truckPng
+export const watchPngSrc = watchPng
