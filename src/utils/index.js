@@ -130,3 +130,9 @@ export const macMiniCurImgSrc = macMiniCurImg
 export const watchCurImgSrc = watchCurImg
 export const watchCurImg2Src = watchCurImg2
 export const watchCurImg3Src = watchCurImg3
+
+import entImgBig from "./../../assets/images/ent-img.png"
+import entImgSmall from "./../../assets/images/ent-img-sm.jpg"
+
+export const entImgBigSrc = entImgBig
+export const entImgSmallSrc = entImgSmall

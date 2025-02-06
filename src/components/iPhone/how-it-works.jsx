@@ -12,7 +12,7 @@ const HowItWorks = () => {
 				start: "20% bottom",
 			},
 			opacity: 0,
-			scale: 2,
+			scale: 0.2,
 			duration: 2,
 			ease: "power2.inOut",
 		})

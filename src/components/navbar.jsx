@@ -2,10 +2,16 @@ import { useState } from "react"
 
 import { appleImg, bagImg, burgerImg, searchImg, xImg } from "../utils"
 import NavItems from "./nav-items"
+import { useGSAP } from "@gsap/react"
+import gsap from "gsap"
 
 const Navbar = () => {
 	const [open, setOpen] = useState(false)
 	const handleOpen = () => setOpen(!open)
+
+	useGSAP(() => {
+		gsap.to("#nav-container", { opacity: 1, y: 0, display: "block", overflow: "hidden", ease: "power1.in" })
+	}, [])
 	return (
 		<>
 			<header className="w-full py-5 sm:px-10 px-5 flex justify-center items-center overflow-hidden">
@@ -29,8 +35,11 @@ const Navbar = () => {
 				</nav>
 			</header>
 			<div
+				id="nav-container"
 				onClick={handleOpen}
-				className={`${open ? "max-h-screen" : "max-h-0 hidden"} md:hidden flex absolute top-10 right-0 w-full z-20 bg-black shadow-md  shadow-white`}
+				className={`${
+					open ? "max-h-screen" : "max-h-0 hidden"
+				} md:hidden opacity-0 -translate-y-10 flex absolute top-10 right-0 w-full z-20 bg-black`}
 			>
 				<NavItems className={"flex flex-col text-2xl gap-3 p-8"} />
 			</div>

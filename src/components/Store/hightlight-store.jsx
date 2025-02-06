@@ -6,12 +6,13 @@ import "slick-carousel/slick/slick-theme.css"
 import CustomNextArrow from "../ui/custom-next-arrow"
 import CustomPrevArrow from "../ui/custom-prev-arrow"
 import CustomSlider from "../ui/custom-slider"
+import gsap from "gsap"
 
 const HighlightStore = () => {
 	useGSAP(() => {
 		animateWithGsap(".section-heading", { opacity: 1, y: 0 })
 		animateWithGsap("#features_pretitle", { opacity: 1, y: 0, delay: 0.5 })
-		animateWithGsap("#slider", { opacity: 1, y: 0, delay: 1, stagger: 0.25 })
+		gsap.to("#slider", { opacity: 1, y: 0, delay: 1, stagger: 0.25 })
 	}, [])
 
 	const settings = {

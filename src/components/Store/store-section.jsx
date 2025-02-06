@@ -1,3 +1,5 @@
+import Footer from "../iPhone/footer"
+import EntertainmentStore from "./enterteiment-store"
 import HeroStore from "./hero-store"
 import HighlightStore from "./hightlight-store"
 
@@ -6,6 +8,8 @@ const StoreSection = () => {
 		<main className="bg-black">
 			<HeroStore />
 			<HighlightStore />
+			<EntertainmentStore />
+			<Footer />
 		</main>
 	)
 }
