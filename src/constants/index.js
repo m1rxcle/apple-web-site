@@ -300,36 +300,3 @@ export const cardsForCur = [
 		isBlack: true,
 	},
 ]
-
-export const cardsForEnt = [
-	{
-		id: 1,
-		text: "Enjoy two-hour delivery. From an Apple Store, free delivery, or easy pickup.",
-		href: "/assets/svg/credit-card.svg",
-	},
-	{
-		id: 2,
-		text: "Choose a bank.Pick a case.Make an Apple Watch just for them.",
-		href: "/assets/svg/credit-card.svg",
-	},
-	{
-		id: 3,
-		text: "Pay in full or pay over time. Your choice.",
-		href: "/assets/svg/credit-card.svg",
-	},
-	{
-		id: 4,
-		text: "Make them yours. Engrave a mix of emoji,names,and numbers for free.",
-		href: "/assets/svg/credit-card.svg",
-	},
-	{
-		id: 5,
-		text: "Customize their Mac with everything from graphics to storage.",
-		href: "/assets/svg/credit-card.svg",
-	},
-	{
-		id: 6,
-		text: "Trade in your current device.Get credit toward a new one.",
-		href: "/assets/svg/credit-card.svg",
-	},
-]

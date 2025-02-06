@@ -9,12 +9,12 @@ import gsap from "gsap"
 import { animateWithGsap } from "../../utils/animations"
 import { ScrollTrigger } from "gsap/all"
 
-import { cardsForEnt } from "../../constants"
 import CustomNextArrow from "../ui/custom-next-arrow"
 import CustomPrevArrow from "../ui/custom-prev-arrow"
 import { entImgBigSrc, entImgSmallSrc } from "../../utils"
 
 import { ShoppingBag } from "lucide-react"
+import CustomSliderForEnt from "../ui/custom-slider-for-ent"
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -87,7 +87,8 @@ const EntertainmentStore = () => {
 			{
 				breakpoint: 480,
 				settings: {
-					slidesToShow: 1,
+					arrows: false,
+					slidesToShow: 1.2,
 					slidesToScroll: 1,
 				},
 			},
@@ -113,26 +114,13 @@ const EntertainmentStore = () => {
 					className="sm:clipForSmallImg lg:clipForBigImg absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] object-cover"
 				/>
 			</div>
-			<div className="common-padding">
+			<div className="md:common-padding sm:pl-10">
 				<div className="flex md:flex-row sm:flex-col md:items-center sm:items-start gap-1 justify-start mb-10">
 					<h2 className="md:text-2xl sm:text-xl font-semibold">The Apple Store difference.</h2>
 					<p className="text-[rgb(134,134,139)] md:text-2xl sm:text-xl">So many reasons to love.</p>
 				</div>
 				<div>
-					<Slider {...settings}>
-						{cardsForEnt.map((card) => (
-							<div className="hover:scale-[1.01] h-[250px] p-[30px] w-[313px] transition-all duration-300 ease-linear bg-zinc rounded-3xl">
-								<div id="slider" key={card.id} className=" relative transition-all duration-300 ease-linear  ">
-									<div className="mb-6">
-										<img className="" src={card.href} />
-									</div>
-									<div className="w-3/4">
-										<h1 className="md:text-2xl sm:text-xl text-white font-semibold mb-2">{card.text}</h1>
-									</div>
-								</div>
-							</div>
-						))}
-					</Slider>
+					<CustomSliderForEnt settings={settings} />
 
 					{/* //TODO: ShoppingBag 
 					<div className="fixed bottom-5 right-5">
